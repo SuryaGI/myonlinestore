@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '830305a5-80db-4d17-9dae-7a13d51c2837'
   imageRepository: 'suryagimyonlinestore'
   containerRegistry: 'suryaazure.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/Dockerfile-multistage'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'suryaazure7b85-auth'
 
